@@ -1,0 +1,27 @@
+
+Viscrow Aria
+
+Viscrow's AI Scribe Software
+
+Dev Setup
+
+Required Microservices
+
+userService
+deepgramProxy
+inference
+Environment Variables
+
+Make sure you are running the other backend services first
+
+VITE_AUTH_URL=<base url of the userService api>
+VITE_TRANSCRIPTION_URL=<base url of the deepgramProxy api>
+VITE_NOTES_URL=<base url of the inference api>
+Installation
+
+Make sure you have pnpm installed on your computer
+
+PNPM installation instructions can be found here
+
+To install dependencies, run pnpm install in the project folder
+To run the app, run pnpm run dev in the project folder
